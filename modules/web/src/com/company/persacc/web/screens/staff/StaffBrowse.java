@@ -38,7 +38,7 @@ public class StaffBrowse extends StandardLookup<Staff> {
 
         //ссылка на таблицу и путь к файлу таблицы
         String sheetURL="https://docs.google.com/spreadsheets/d/1PiJi6zPyYw5nAx3bJi56haKLlgHpYQEfUnF6Kujjbs4/export?format=csv";
-        String csvFilePath = "D:\\persacc\\modules\\global\\src\\com\\company\\persacc\\resources\\Sheet.csv";
+        String csvFilePath = "D:\\persacc\\modules\\global\\src\\com\\company\\persacc\\resources\\Sheet.csv"; //хардкод, не видит через com...
 
         downloadCsvService.download(sheetURL, csvFilePath); //скачивание таблицы
         List<Staff> allStaff = addStaffService.loadAllStaff(); //Сотрудники из бд
