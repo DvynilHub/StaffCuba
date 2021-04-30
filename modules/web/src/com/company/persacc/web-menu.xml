@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-persacc" insertBefore="administration" caption="mainMsg://menu_config.application-persacc">
+        <item screen="persacc_Staff.browse" caption="mainMsg://menu_config.persacc_Staff.browse"/>
+    </menu>
+</menu-config>

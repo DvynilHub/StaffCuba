@@ -1,0 +1,3 @@
+Создан профиль
+login: ${staff.email}
+password: 123
